@@ -8,4 +8,4 @@ area_or_perimeter(3, 3) --> 9
 Note: for the purposes of this kata you will assume that it is a square if its length and width are equal, otherwise it is a rectangle.
 */
 
-const areaOrPerimeter = (l , w) => (l === w) ? l * w : 2*l + 2*w;
+const areaOrPerimeter = (length , width) => (length === width) ? length * width : 2*length + 2*width;
